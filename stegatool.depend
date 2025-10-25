@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1747841134 source:c:\users\losho\onedrive\documents\codeblox\stegatool\encryptor.cpp
+	"encryptor.h"
+
+1744833041 c:\users\losho\onedrive\documents\codeblox\stegatool\encryptor.h
+	<string>
+	<iostream>
+
+1747678680 source:c:\users\losho\onedrive\documents\codeblox\stegatool\hideandseek.cpp
+	"hideandseek.h"
+	<iostream>
+	<stdexcept>
+
+1744833041 c:\users\losho\onedrive\documents\codeblox\stegatool\hideandseek.h
+	"steganography.h"
+	<string>
+
+1747841134 c:\users\losho\onedrive\documents\codeblox\stegatool\steganography.h
+	<string>
+	<iostream>
+
+1747691785 source:c:\users\losho\onedrive\documents\codeblox\stegatool\main.cpp
+	<iostream>
+	"securestega.h"
+
+1747691785 c:\users\losho\onedrive\documents\codeblox\stegatool\securestega.h
+	"hideandseek.h"
+	"encryptor.h"
+	<string>
+
+1747841134 source:c:\users\losho\onedrive\documents\codeblox\stegatool\steganography.cpp
+	"steganography.h"
+	<fstream>
+	<stdexcept>
+	<cstring>
+	<bitset>
+
+1747691785 source:c:\users\losho\onedrive\documents\codeblox\stegatool\securestega.cpp
+	"securestega.h"
+	<iostream>
+

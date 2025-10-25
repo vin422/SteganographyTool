@@ -1,0 +1,26 @@
+CLASSES
+Steganography (base): basic features, loading image, files,abstract base class
+Hideandseek (derived): hide and recover messages in plaintext
+Encryptor: encrypts the message with XOR encryption
+SecureSteganography: both hiding and encrypting using multiple inheritance
+Main: uses all the functionality
+
+LIBRARIES
+iostream: printing
+fstream: reading files
+string: using text
+exception: handling errors
+
+So far i have used oop design like multiple inheritance and polymorphism and destructors for organized memory management. also friend operator overloading has been used in the encryptor class.
+
+The encryption logic already works (the xor encryption/decryption) and can already be tested
+
+It can already be compiled
+
+What to be implemented next:
+1) Real image files, so instead of loadImage() and saveImage() its gonna be an actual bitmap reading.
+2) LSB text embedding: inside the encde() each char will be converted to binary and the least significant bits of each image byte with bits of the secret message. decryption will work vise versa
+3) error handling (memory allocation, file reading etc
+4) possibly more advanced features
+
+Important note: I have used chatGPT and other resourses during this stage. however, i have done so wisely and only used it for learning purposes. rest assured, i can confidently speak up for each line of code if necessary. thank you for your time.
