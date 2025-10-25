@@ -1,1 +1,4 @@
 Through this project I learned to manage binary files, handle dynamic memory safely, and implement modular, extensible architecture using inheritance, polymorphism, and abstraction in C++. I also explored exception handling, operator overloading, multiple inheritance, and the practical application of encapsulation in a security-oriented context.
+
+
+A more detailed overview of the project can be found in documentation.docx
